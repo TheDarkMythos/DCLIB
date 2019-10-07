@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DCLIB
+public class DCLIB
 {
-    public class Class1
+    public void GetConfigFile(string Name)
     {
+
     }
 }
+

@@ -4,7 +4,7 @@ using System.Reflection;
 
 public class DCLIB
 {
-    public string GetConfigFile(string Name)
+    public static string GetConfigFile(string Name)
     {
         if (File.Exists(Assembly.GetEntryAssembly().Location.Substring(0, Assembly.GetEntryAssembly().Location.LastIndexOf(@"\") + 1) + Name))
         {
@@ -31,7 +31,7 @@ public class DCLIB
         }
     }
 
-    public string Base64Decode(string base64EncodedData)
+    public static string Base64Decode(string base64EncodedData)
     {
         try
         {

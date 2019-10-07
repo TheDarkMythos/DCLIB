@@ -9,6 +9,10 @@ public class DCRatPlugin
 {
     public void OnLoad(string HOST)
     {
+        string PluginConfig = DCLIB.GetConfigFile("MyConfigFile.cfg");
+
+        string BaseDecodedPluginConfig = DCLIB.Base64Decode(DCLIB.GetConfigFile("MyConfigFile.cfg"));
+
         //YOUR CODE
     }
 }

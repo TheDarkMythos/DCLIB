@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 public class DCRatPlugin
 {
-    public void OnLoad(string HOST, string TOKEN)
+    public void OnLoad(string HOST, string TOKEN, string PATH)
     {
         string PluginConfig = DCLIB.GetConfigFile("MyConfigFile.cfg");
 

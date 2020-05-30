@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-public class DCRatPlugin
+public class DPlugin
 {
     public void OnLoad(string HOST, string TOKEN, string PATH)
     {

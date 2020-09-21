@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-public class DPlugin
+[CompilerGenerated]
+public class Plugin
 {
     public void OnLoad(string HOST, string TOKEN, string PATH, string U_TAG)
     {

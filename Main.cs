@@ -42,12 +42,12 @@ public class Plugin
         
         //---------------------------------
         fileData[0] = "SomeLogs.txt"; //(String)File name in the log, or path with folder: "Other/SomeLogs.txt"
-        fileData[1] = File.ReadAllBytes("C:\\SomeImportantFile.txt"); //(Byte Array) Byte array of file.
+        fileData[1] = File.ReadAllBytes(@"C:\SomeImportantFile.txt"); //(Byte Array) Byte array of file.
         
         Content.Add(fileData);
         //---------------------------------
         fileData[0] = "SomeOtherLogs.txt";
-        fileData[1] = File.ReadAllBytes("C:\\SomeOtherFile.exe");
+        fileData[1] = File.ReadAllBytes(@"C:\SomeOtherFile.exe");
         
         Content.Add(fileData);
         //---------------------------------

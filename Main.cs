@@ -9,12 +9,8 @@ using System.Runtime.CompilerServices;
 [CompilerGenerated]
 public class Plugin
 {
-    public void OnLoad(string HOST, string TOKEN, string PATH, string U_TAG)
+    public void OnLoad(string HOST, string TOKEN, string PATH, string U_TAG, Dictionary<string, string> CONFIG)
     {
-        string PluginConfig = DCLIB.GetConfigFile("MyConfigFile.cfg");
-
-        string BaseDecodedPluginConfig = DCLIB.Base64Decode(DCLIB.GetConfigFile("MyConfigFile.cfg"));
-
         //YOUR CODE
     }
     

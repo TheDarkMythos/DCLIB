@@ -9,6 +9,8 @@ using System.Runtime.CompilerServices;
 [CompilerGenerated]
 public class Plugin
 {
+    public static string ConfigPluginName = "MyTestPlugin";
+    
     public void OnLoad(string HOST, string TOKEN, string PATH, string U_TAG, Dictionary<string, string> CONFIG)
     {
         //YOUR CODE
